@@ -1,0 +1,27 @@
+platformName: Android
+
+#模拟器
+#platformVersion: 5.1.1
+#deviceName: 127.0.0.1:62025
+
+#platformVersion: 4.4.2
+#deviceName: 127.0.0.1:62001
+
+platformVersion: 5.1.1
+deviceName: 127.0.0.1:21503
+
+#真机
+#platformVersion: 6.0
+#udid: WCDI7LAAGAGMYT9P
+#deviceName: 红米手机
+
+appName: futureve-5.46.apk
+appPackage: com.zhihu.android
+appActivity: com.zhihu.android.app.ui.activity.LauncherActivity
+
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+
+ip: 127.0.0.1
+port: 4723
