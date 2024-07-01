@@ -12,5 +12,5 @@ report_name=report_dir+'/'+now+'test_report.html'
 
 with open(report_name,'wb') as f:
     runner=BSTestRunner(stream=f,title='zhihu test report',description='zhihu android app test report')
-    logging.info('start run test case')
+    logging.info('start run test case 20240701')
     runner.run(discover)
