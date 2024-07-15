@@ -14,6 +14,7 @@ class TestLogin(StartEnd):
         lv.login_action(data[0],data[1])
         bool=lv.check_loginStatus()
         self.assertTrue(bool)
+        
 
     if __name__ == '__main__':
         unittest.main()
